@@ -1,0 +1,240 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Bus\project\Pro\Bus.uvproj
+Project File Date:  11/23/2017
+
+<h2>Output:</h2>
+Build target 'Bus'
+compiling led.c...
+linking...
+..\OBJ\Bus.axf: Error: L6218E: Undefined symbol keyInit (referred from main.o).
+"..\OBJ\Bus.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Bus'
+compiling main.c...
+..\..\User\src\main.c(13): warning:  #223-D: function "NVICGroupInit" declared implicitly
+linking...
+Program Size: Code=9032 RO-data=396 RW-data=52 ZI-data=1636  
+FromELF: creating hex file...
+"..\OBJ\Bus.axf" - 0 Errors, 1 Warning(s).
+Build target 'Bus'
+compiling main.c...
+linking...
+Program Size: Code=9032 RO-data=396 RW-data=52 ZI-data=1636  
+FromELF: creating hex file...
+"..\OBJ\Bus.axf" - 0 Errors, 0 Warning(s).
+Load "..\\OBJ\\Bus.axf" 
+Build target 'Bus'
+linking...
+Program Size: Code=9032 RO-data=396 RW-data=52 ZI-data=1636  
+FromELF: creating hex file...
+"..\OBJ\Bus.axf" - 0 Errors, 0 Warning(s).
+Load "..\\OBJ\\Bus.axf" 
+Set JLink Project File to "E:\Bus\project\Pro\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Bus'
+compiling main.c...
+linking...
+Program Size: Code=9028 RO-data=396 RW-data=52 ZI-data=1636  
+FromELF: creating hex file...
+"..\OBJ\Bus.axf" - 0 Errors, 0 Warning(s).
+Load "..\\OBJ\\Bus.axf" 
+Set JLink Project File to "E:\Bus\project\Pro\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Bus'
+compiling led.c...
+linking...
+Program Size: Code=9028 RO-data=396 RW-data=52 ZI-data=1636  
+FromELF: creating hex file...
+"..\OBJ\Bus.axf" - 0 Errors, 0 Warning(s).
+Load "..\\OBJ\\Bus.axf" 
+Set JLink Project File to "E:\Bus\project\Pro\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Bus'
+compiling led.c...
+..\..\headware\src\led.c(23): warning:  #68-D: integer conversion resulted in a change of sign
+..\..\headware\src\led.c(24): warning:  #68-D: integer conversion resulted in a change of sign
+linking...
+Program Size: Code=9036 RO-data=396 RW-data=52 ZI-data=1636  
+FromELF: creating hex file...
+"..\OBJ\Bus.axf" - 0 Errors, 2 Warning(s).
+Build target 'Bus'
+linking...
+Program Size: Code=9036 RO-data=396 RW-data=52 ZI-data=1636  
+FromELF: creating hex file...
+"..\OBJ\Bus.axf" - 0 Errors, 0 Warning(s).
+Load "..\\OBJ\\Bus.axf" 
+Set JLink Project File to "E:\Bus\project\Pro\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Bus'
+compiling led.c...
+linking...
+Program Size: Code=9020 RO-data=396 RW-data=52 ZI-data=1636  
+FromELF: creating hex file...
+"..\OBJ\Bus.axf" - 0 Errors, 0 Warning(s).
+Load "..\\OBJ\\Bus.axf" 
+Set JLink Project File to "E:\Bus\project\Pro\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
